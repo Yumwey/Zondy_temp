@@ -1,0 +1,51 @@
+.show-grid [class*="span"] {
+    // background-color: #eee;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    min-height: 40px;
+    line-height: 40px;
+}
+form,p {
+    margin-bottom: 0px;
+}
+.logo {font-size: 24px;}
+.radius-none .navbar-inner{
+    padding-left: 40px;
+	border-radius: 0;background: #fff;border: 0;border-top: 1px solid #dcdcdc;border-bottom: 1px solid #2b659d;height: 31px;line-height: 31px;min-height: 31px;}
+
+#navbar-example {display: inline-block;float: right;margin-bottom: 0}
+#navbar-example .navbar-inner {border: 0;background: none;}
+#navbar-example .navbar-inner .container {margin-top: 5px;}
+a {font-size: 12px;}
+.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
+	background-color: #111111;
+}
+.nav-collapse, .nav-collapse.collapse{background: #fff;z-index: 9;}
+.navbar-inverse .btn-navbar{padding: 4px 8px;}
+.breadcrumb {border-radius: 0;}
+/* clear */
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle{background: transparent;}
+/* header */
+.header {height: 75px;box-sizing: border-box;}
+.navbar .nav > li > a {padding: 5px 15px 6px;margin: 0 1px;}
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus,.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover{background-color: #417EB7;}
+/* mainbody */
+.mainbody {position: absolute;left: 0;top: 75px;right: 0;bottom: 0;box-sizing: border-box;}
+.left-menu {position: absolute;left: 0;width: 200px;height: 100%;overflow: auto;background: #417eb7;box-shadow: 1px 1px 2px #417EB7;}
+.right-menu {position: absolute;left: 205px;right: 0;height: 100%;overflow: auto;background: #f1f1f1;}
+.breadcrumb {height: 26px;line-height: 26px;border-bottom: 1px solid #ddd6d6;padding: 0 10px;margin: 0 10px;}
+.breadcrumb > li > .divider{color: #a1a1a1;}
+/* .left-menu */ 
+.left-menu .container-fluidx {margin-top: 5px;}
+.left-menu .row-fluid {border-top: 1px solid #135ea6;}
+.left-menu .accordion-group {border: 0;border-bottom: 1px solid #135ea6; border-radius: 0; border-right: 1px solid #135ea6;margin-bottom: 0;border-top: 1px solid #5e99d5;}
+.accordion-heading .accordion-toggle{color: #fff; background: #417EB7;}
+.left-menu .accordion-inner {border-top: 1px solid #5e99d5;padding: 0;}
+.left-menu .accordion-inner a {display: block;padding: 9px 15px;}
+.left-menu .accordion a:hover,.left-menu .accordion a:focus {text-decoration: none;background-color: #fff;color: #000;}
+.left-menu .accordion-inner a:hover,.left-menu .accordion-inner a:focus{background-color: #2d689f;color: #b9ddff;} 
+.left-menu a{color: #b9ddff;}
+
+
